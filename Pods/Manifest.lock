@@ -1,0 +1,18 @@
+PODS:
+  - Kingfisher (2.4.1)
+  - MBProgressHUD (0.9.2)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Kingfisher (~> 2.4)
+  - MBProgressHUD (~> 0.9.2)
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Kingfisher: 41aed5b6c1ed8fa98cf6d75283ce89cf7890f517
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: ec78860f034779486d7254cebd56d94581f74472
+
+COCOAPODS: 1.0.1
