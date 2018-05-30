@@ -26,12 +26,16 @@ class DetailViewController: UIViewController {
         
         // Changing the Navigation bar look
         let nav = self.navigationController?.navigationBar
-        nav?.barStyle = UIBarStyle.Black
+		nav?.barStyle = UIBarStyle.black
         
         // image data
-        let url = NSURL(string: (book?.coverURL)!)
-        data = NSData(contentsOfURL: url!)
-        bookIMG?.image = UIImage(data: data!)
+        let url = URL(string: (book?.coverURL)!)
+		do {
+			data = try Data(contentsOf: url!) as NSData
+		} catch {
+			print("there was an error getting the image")
+		}
+		bookIMG?.image = UIImage(data: data! as Data)
         
         // title data
         let title = "Title: "

@@ -9,8 +9,8 @@ target 'BookCatalogue' do
 
   # Pods for BookCatalogue
     pod 'SwiftyJSON'
-    pod 'Kingfisher', '~> 2.4'
-    pod 'MBProgressHUD', '~> 0.9.2'
+    pod 'Kingfisher'
+    pod 'MBProgressHUD'
 
 target 'BookCatalogueTests' do
     inherit! :search_paths
